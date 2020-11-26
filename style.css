@@ -96,14 +96,14 @@ h1{
   align: center;
   width: 100%;
   margin: 0;
-  font-size: 60%;
+  font-size: 70%;
   text-decoration: none;
 }
 
 .menu table{
   align: center;
   width:100%;
-  font-size: 80%;
+  font-size: 100%;
   text-decoration: underline;
   text-decoration-color: white;
 }
@@ -132,6 +132,14 @@ img.icon{
 
 hr{
   color:white;
+}
+
+.region{
+  font-size: 300%;
+  font-family:"Playfair Display";
+  text-align: center;
+  margin: 20px;
+  color: #7FFFD4;
 }
 
 img.vietnam_map{
