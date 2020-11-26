@@ -42,16 +42,17 @@ p{
 
 
 .intro{
-  height:80%;
-  width:auto;
+  width:100%;
+  height:50%;
   margin: 0;
   background: url(Photos/Cover.png);
-  background-size: cover;
+  background-size:cover;
+  background-position: bottom;
 }
 
 .intro .inner{
   text-align:center;
-  width: 50%;
+  width: 100%;
   max-width: none;
 
 }
