@@ -170,13 +170,6 @@ a:hover{
   margin-bottom:50px;
 }
 
-img.photo{
-  max-width: 100%;
-  height: 400px;
-  object-fit: cover;
-  position: relative;
-}
-
 .photo_container{
   margin: 0 20px 0 20px;
   display:inline-block;
@@ -184,10 +177,17 @@ img.photo{
 }
 
 .image{
-  width: 32%;
+  width: 49%;
   margin-left:10px;
   margin_right:10px;
   display:inline-block;
+  position: relative;
+}
+
+img.photo{
+  max-width: 100%;
+  height: 640px;
+  object-fit: cover;
   position: relative;
 }
 
@@ -201,7 +201,7 @@ img.photo{
   flex-direction:column;
   align-items: center;
   opacity:0;
-  font-size: 100%;
+  font-size: 130%;
   color:black;
   font-family: 'Raleway';
   background-color: white;
@@ -217,7 +217,7 @@ img.photo{
   flex-direction:column;
   align-items: center;
   opacity:70%;
-  font-size: 100%;
+  font-size: 130%;
   color:black;
   font-style:normal;
   font-family: 'Raleway';
